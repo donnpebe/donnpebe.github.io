@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Donny "donnpebe"</title>
+  <meta name="description" content="Donny Pages">
+  <link rel="stylesheet" href="css/normalize.css">
+  <script src="js/vendor/jquery.min.js"></script>
+  
+  <style>
+    ::selection {
+    background: darkblue;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+body {
+    background-color: #000;
+    color: #88ff00;
+    font-family: Inconsolata,monospace;
+    font-size: 16px;
+}
+
+#terminal{
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:100px;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.4);
+    width:600px;
+    font: inherit;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: inherit; 
+}
+A,.highlight{
+  color: red;
+}
+  </style>
+</head>
+<body>
+
+  <div id="terminal">
+    <span class="instant">
+    ============ ENGINE STARTING ============
+    <br/>
+    </span>
+    Loading... 
+                              [Ok].
+    <span class="clear"></span>
+    <br/>
+      HElluuw and Welcome!<br/>
+      <span class="clear"></span>
+    My Name is <span class="highlight">donnPebE</span>.<br/>
+      I'm a programmer from [<a href="#">11°S and 6°N, 95°E and 141°E</a>].<br/>
+    <br/>
+    Nice to meet you, my Friend<br/>
+    <br/>
+    Well, we are not physically meet, but still ..<br/>
+    End of transmission;
+  </div> 
+  <script src="js/vendor/typewriter.js"></script>
+  <script>
+    $(function(){
+      $('#terminal').typewriter();
+    });
+  </script>
+</body>
+</html>
